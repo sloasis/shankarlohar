@@ -25,6 +25,21 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+
+#cp-iframe {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 80vw;  /* 80% of the viewport width */
+  height: 80vh;  /* 80% of the viewport height */
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  border: 2px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
